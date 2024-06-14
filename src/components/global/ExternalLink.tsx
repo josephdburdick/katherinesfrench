@@ -15,7 +15,7 @@ export default function ExternalLink(props: Props) {
       className={cn("inline-flex items-center gap-1 text-inherit", className)}
       href={href}
     >
-      <span className="underline">{children}</span>
+      <span>{children}</span>
 
       <Icon.externalLink className="inline-block" size="16" />
     </a>

@@ -9,8 +9,8 @@ export default function Footer() {
   const { links } = about
 
   return (
-    <div className="relative flex flex-col items-center bg-white">
-      About {JSON.stringify(links)}
+    <div className="relative flex flex-col items-center">
+      {/* About {JSON.stringify(links)} */}
     </div>
   )
 }
