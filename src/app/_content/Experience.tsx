@@ -1,6 +1,5 @@
 "use client"
 
-import DateSpan from "@/components/global/DateSpan"
 import { useApi } from "@/components/providers/DataProvider"
 import { Experience as ExperienceType, Role } from "@/lib/types"
 import { cn } from "@/lib/utils"
@@ -33,5 +32,4 @@ export default function Experience() {
       </div>
       <div className="mt-8 flex w-full flex-1">{renderExperiences}</div>
     </div>
-  )
-}
+  )}
