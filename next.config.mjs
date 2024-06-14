@@ -3,7 +3,7 @@
 const isProduction = process.env.NODE_ENV === "production"
 
 const nextConfig = {
-  basePath: isProduction ? "/j0e" : "",
+  basePath: isProduction ? "/katherinesfrench" : "",
   output: "export",
   images: {
     unoptimized: true,
