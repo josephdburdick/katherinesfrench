@@ -1,8 +1,5 @@
 "use client"
 
-import ExternalLink, {
-  ExternalLinkType,
-} from "@/components/global/ExternalLink"
 import { useApi } from "@/components/providers/DataProvider"
 
 function Intro() {
