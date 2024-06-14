@@ -12,13 +12,11 @@ export default function Header() {
   const { linkedin } = data.contact.attributes.links
   return (
     <header className={cn("container flex items-center justify-between py-8")}>
-      <h1 className="inline-flex items-center gap-2 text-xl font-bold">
+      <h1 className="inline-flex flex-nowrap items-center gap-2 text-xl font-bold">
         <span>{name}</span> ✨
       </h1>
-      <div className="flex items-center gap-2">
-        <div className="font-semi flex items-end justify-between gap-4 md:items-center">
-          <ExternalLink href={linkedin.url}>{linkedin.text}</ExternalLink>
-        </div>
+      <div className="font-semi flex items-end justify-between gap-4 md:items-center">
+        <ExternalLink href={linkedin.url}>{linkedin.text}</ExternalLink>
       </div>
     </header>
   )

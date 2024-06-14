@@ -2,21 +2,19 @@
 
 import DateSpan from "@/components/global/DateSpan"
 import { useApi } from "@/components/providers/DataProvider"
-import { Experience, Role } from "@/lib/types"
+import { Experience as ExperienceType, Role } from "@/lib/types"
 import { cn } from "@/lib/utils"
 
 export default function Experience() {
   const { data } = useApi()
-  const experience: Experience = data.experience.attributes
+  const experience: ExperienceType = data.experience.attributes
   console.log(experience)
   const renderRole = (role: Role, key: number) => (
-    <li key={`role-${key}`} className="grid gap-2">
-      <div className="grid grid-cols-12">
-        <div className="col-span-12 font-semibold md:col-span-8 md:col-start-4"></div>
+    <li key={`role-${key}`}>
+      <div className="grid items-center gap-10 lg:grid-cols-2">
+        <div className="aspect-video bg-secondary"></div>
+        <div>{role.description}</div>
       </div>
-      <ul className="grid-auto-rows grid items-start gap-8">
-        {JSON.stringify(role)}
-      </ul>
     </li>
   )
 

@@ -12,14 +12,12 @@ export default async function Home() {
 
   return (
     <DataProvider initialData={data}>
-      <div className="max-h-[100dvh] bg-yellow-50">
-        <Header />
-        <Intro />
-        <About />
-        <Experience />
-        <Header />
-        <Footer />
-      </div>
+      <Header />
+      <Intro />
+      <About />
+      <Experience />
+      <Header />
+      <Footer />
     </DataProvider>
   )
 }

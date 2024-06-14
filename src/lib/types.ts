@@ -1,6 +1,7 @@
-export type ContactLink = {
+import { PropsWithChildren } from "react"
+
+export type ExternalLink = PropsWithChildren & {
   url: string;
-  label: string;
   icon?: string;
 };
 
