@@ -1,8 +1,8 @@
-import { ContactLink } from "@/lib/types"
+
 
 type Props = {
   className?: string;
-  links: ContactLink[];
+  links: unknown[];
 };
 
 export default function ContactLinks(props: Props) {
