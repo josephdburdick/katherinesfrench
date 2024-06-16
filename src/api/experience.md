@@ -2,16 +2,31 @@
 title: Experience
 roles:
   - role: Hospitality
-    date:
-      start: 2014
-      end: null
-    description: |
-      Over the years, I've worn many hats in the hospitality industry, transitioning from server to manager, gaining a comprehensive understanding of its intricacies. As a manager, I handled inventory and supply orders, ensuring the seamless operation of the restaurant during the owner’s absence. Additionally, my freelance work involved skillfully coordinating large-scale events and parties, where I led customer engagement and beverage service with precision. My commitment to surpassing expectations and consistently delivering exceptional results is evident in every role I undertake, making me a valuable asset in any hospitality setting.
 
+    date:
+      start: 2014-01-01
+      end: null
+    picture:
+      src: ${basePath}/assets/images/restaurant--md.jpg
+      alt: Picture of dish in a fine dining restaurant
+      width: 664
+      height: 443
+    description: |
+      Over the years, I've held various positions in the hospitality industry, progressing from server to manager and acquiring a deep understanding of its complexities. As a manager, I was responsible for inventory management and supply orders, ensuring the restaurant ran smoothly in the owner’s absence. 
+
+      In my freelance work, I expertly coordinated large-scale events and parties, overseeing customer engagement and beverage service with precision. My dedication to exceeding expectations and consistently delivering outstanding results is evident in every role I undertake, making me an invaluable asset in any hospitality setting.
   - role: Administration
     date:
-      start: 2011
-      end: 2016
+      start: 2011-01-01
+      end: 2016-01-01
+    picture:
+      src: ${basePath}/assets/images/office--md.jpg
+      alt: Picture of me working on my laptop
+      width: 664
+      height: 443
     description: |
-      I bring valuable experience as an administrative assistant across diverse industries, where I've efficiently managed client inquiries, filtered emails, and facilitated smooth communication between clients and sales representatives. Notably, I led the development of a comprehensive financial record organization system, enhancing accessibility to critical files. I am a proactive team asset, known for my clear communication, exceptional organizational skills, and adept utilization of technology to drive efficiency and productivity.
+      I have extensive experience as an administrative assistant in various industries, efficiently managing client inquiries, filtering emails, and ensuring smooth communication between clients and sales representatives. I notably spearheaded the development of a comprehensive financial record organization system, improving access to crucial files. 
+
+
+      HHI am recognized as a proactive team player with clear communication, exceptional organizational skills, and effective use of technology to enhance efficiency and productivity.
 ---
