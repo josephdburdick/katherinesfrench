@@ -15,7 +15,7 @@ function Intro() {
       <div className="grid grid-cols-12 gap-12">
         <div className="col-span-12 flex items-center justify-center lg:col-span-6">
           <div className="prose-scale flex flex-col gap-12 py-12">
-            <small className="flex items-center gap-2 font-semibold">
+            <small className="flex items-center gap-1 font-medium">
               <Icon.mapPin /> {intro.location}
             </small>
             <h1>
@@ -24,12 +24,12 @@ function Intro() {
               {intro.heading2}
             </h1>
             <div dangerouslySetInnerHTML={{ __html: html }} />
-            <div className="flex flex-wrap items-center gap-12">
+            <div className="flex flex-wrap items-center justify-center gap-12 lg:justify-start">
               <a
                 className={buttonVariants({ size: "lg" })}
                 href={linkedin.href}
               >
-                {linkedin.text}
+                Connect with me on LinkedIn
               </a>
               <a
                 className={buttonVariants({ variant: "link", size: "lg" })}
