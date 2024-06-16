@@ -1,3 +1,4 @@
+import Meta from "@/components/global/Meta"
 import { cn } from "@/lib/utils"
 import { Inter } from "next/font/google"
 
@@ -12,7 +13,7 @@ export default async function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <title>Katherine French</title>
+      <Meta />
       <link
         rel="icon"
         href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>"

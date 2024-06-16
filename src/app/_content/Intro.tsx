@@ -25,15 +25,12 @@ function Intro() {
             </h1>
             <div dangerouslySetInnerHTML={{ __html: html }} />
             <div className="flex flex-wrap items-center justify-center gap-6 lg:justify-start">
-              <a
-                className={buttonVariants({ size: "lg" })}
-                href={linkedin.href}
-              >
+              <a className={buttonVariants({ size: "lg" })} href={linkedin.url}>
                 Connect with me on LinkedIn
               </a>
               <a
                 className={buttonVariants({ variant: "link", size: "lg" })}
-                href={resume.href}
+                href={resume.url}
               >
                 {resume.text}
               </a>
