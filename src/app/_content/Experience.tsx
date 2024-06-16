@@ -13,20 +13,19 @@ export default function Experience() {
   const renderRole = (role: Role, key: number) => (
     <li key={`role-${key}`}>
       <div className="grid items-center gap-10 lg:grid-cols-2">
-        <div className="aspect-video bg-secondary">
-          <Image
-            src={role.picture.src}
-            alt={role.picture.alt}
-            width={role.picture.width}
-            height={role.picture.height}
-          />
-        </div>
-        <div className="space-y-4">
+        <Image
+          className="rounded-xl"
+          objectFit="cover"
+          src={role.picture.src}
+          alt={role.picture.alt}
+          width={role.picture.width}
+          height={role.picture.height}
+        />
+        <div className="prose space-y-4 lg:prose-lg xl:prose-xl">
           <small>
             <DateSpan date={role.date} />
           </small>
           <div
-            className="prose"
             dangerouslySetInnerHTML={{
               __html: convertNewLinesToHTML(role.description),
             }}
