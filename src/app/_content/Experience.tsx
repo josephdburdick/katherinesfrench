@@ -12,8 +12,8 @@ export default function Experience() {
   const experience: ExperienceType = data.experience.attributes
   const renderRole = (role: Role, key: number) => (
     <li key={`role-${key}`}>
-      <div className="grid items-center gap-10 lg:grid-cols-2">
-        <div className="relative">
+      <div className="grid items-center justify-center gap-10 lg:grid-cols-2">
+        <span className="relative">
           <Image
             className="rounded-xl"
             objectFit="cover"
@@ -22,8 +22,8 @@ export default function Experience() {
             width={role.picture.width}
             height={role.picture.height}
           />
-          <div className="absolute inset-0 rounded-xl bg-primary mix-blend-soft-light"></div>
-        </div>
+          <span className="absolute inset-0 rounded-xl bg-primary mix-blend-soft-light"></span>
+        </span>
         <div className="prose space-y-4 lg:prose-lg xl:prose-xl">
           <small>
             <DateSpan date={role.date} />

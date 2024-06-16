@@ -24,7 +24,7 @@ function Intro() {
               {intro.heading2}
             </h1>
             <div dangerouslySetInnerHTML={{ __html: html }} />
-            <div className="flex flex-wrap items-center justify-center gap-12 lg:justify-start">
+            <div className="flex flex-wrap items-center justify-center gap-6 lg:justify-start">
               <a
                 className={buttonVariants({ size: "lg" })}
                 href={linkedin.href}
@@ -41,15 +41,15 @@ function Intro() {
           </div>
         </div>
         <div className="col-span-12 flex items-center justify-center lg:col-span-6">
-          <div className="relative flex aspect-square w-96 max-w-full items-center justify-center overflow-hidden rounded-full bg-secondary">
+          <span className="w-95 relative max-w-full items-center justify-center overflow-hidden rounded-full">
             <Image
               width={intro.picture.width}
               height={intro.picture.height}
               alt={intro.picture.alt}
               src={intro.picture.src}
             />
-            <div className="rounded-rull absolute inset-0 bg-primary mix-blend-soft-light"></div>
-          </div>
+            <span className="rounded-rull absolute inset-0 bg-primary mix-blend-soft-light"></span>
+          </span>
         </div>
       </div>
     </div>
