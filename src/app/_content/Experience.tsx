@@ -1,18 +1,37 @@
 "use client"
 
+import DateSpan from "@/components/global/DateSpan"
 import { useApi } from "@/components/providers/DataProvider"
+import convertNewLinesToHTML from "@/lib/convertNewLinesToHTML"
 import { Experience as ExperienceType, Role } from "@/lib/types"
 import { cn } from "@/lib/utils"
+import Image from "next/image"
 
 export default function Experience() {
   const { data } = useApi()
   const experience: ExperienceType = data.experience.attributes
-  console.log(experience)
   const renderRole = (role: Role, key: number) => (
     <li key={`role-${key}`}>
       <div className="grid items-center gap-10 lg:grid-cols-2">
-        <div className="aspect-video bg-secondary"></div>
-        <div>{role.description}</div>
+        <div className="aspect-video bg-secondary">
+          <Image
+            src={role.picture.src}
+            alt={role.picture.alt}
+            width={role.picture.width}
+            height={role.picture.height}
+          />
+        </div>
+        <div className="space-y-4">
+          <small>
+            <DateSpan date={role.date} />
+          </small>
+          <div
+            className="prose"
+            dangerouslySetInnerHTML={{
+              __html: convertNewLinesToHTML(role.description),
+            }}
+          ></div>
+        </div>
       </div>
     </li>
   )
@@ -32,4 +51,5 @@ export default function Experience() {
       </div>
       <div className="mt-8 flex w-full flex-1">{renderExperiences}</div>
     </div>
-  )}
+  )
+}

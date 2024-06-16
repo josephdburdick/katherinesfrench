@@ -1,11 +1,11 @@
 ---
 links:
   linkedin:
-    text: LinkedIn
+    text: Connect with me on LinkedIn
     icon: linkedin
     url: https://www.linkedin.com/in/katherinesfrench
-  readcv:
-    text: Resume
+  resume:
+    text: View my Resume
     icon: readCV
     url: https://read.cv/katefr
 ---
