@@ -12,7 +12,7 @@ function Intro() {
   const { linkedin, resume } = data.contact.attributes.links
   return (
     <div className="container">
-      <div className="grid grid-cols-12 gap-12">
+      <div className="grid grid-cols-12 lg:gap-12">
         <div className="col-span-12 flex items-center justify-center lg:col-span-6">
           <div className="prose-scale flex flex-col gap-12 py-12">
             <small className="flex items-center gap-1 font-medium">
@@ -41,13 +41,14 @@ function Intro() {
           </div>
         </div>
         <div className="col-span-12 flex items-center justify-center lg:col-span-6">
-          <div className="flex aspect-square w-96 max-w-full items-center justify-center overflow-hidden rounded-full bg-secondary">
+          <div className="relative flex aspect-square w-96 max-w-full items-center justify-center overflow-hidden rounded-full bg-secondary">
             <Image
               width={intro.picture.width}
               height={intro.picture.height}
               alt={intro.picture.alt}
               src={intro.picture.src}
             />
+            <div className="rounded-rull absolute inset-0 bg-primary mix-blend-soft-light"></div>
           </div>
         </div>
       </div>

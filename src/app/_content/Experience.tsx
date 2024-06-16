@@ -13,14 +13,17 @@ export default function Experience() {
   const renderRole = (role: Role, key: number) => (
     <li key={`role-${key}`}>
       <div className="grid items-center gap-10 lg:grid-cols-2">
-        <Image
-          className="rounded-xl"
-          objectFit="cover"
-          src={role.picture.src}
-          alt={role.picture.alt}
-          width={role.picture.width}
-          height={role.picture.height}
-        />
+        <div className="relative">
+          <Image
+            className="rounded-xl"
+            objectFit="cover"
+            src={role.picture.src}
+            alt={role.picture.alt}
+            width={role.picture.width}
+            height={role.picture.height}
+          />
+          <div className="absolute inset-0 rounded-xl bg-primary mix-blend-soft-light"></div>
+        </div>
         <div className="prose space-y-4 lg:prose-lg xl:prose-xl">
           <small>
             <DateSpan date={role.date} />
