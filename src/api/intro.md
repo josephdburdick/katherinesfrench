@@ -5,7 +5,7 @@ heading1: Hello,
 heading2: I'm Katherine French
 
 picture:
-  src: ${basePath}/assets/images/Kate-French-portrait--md.jpg
+  src: ${basePath}/assets/images/kate-french-portrait--md.jpg
   alt: Katherine French Portrait
   width: 384
   height: 512
