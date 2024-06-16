@@ -28,5 +28,5 @@ roles:
       I have extensive experience as an administrative assistant in various industries, efficiently managing client inquiries, filtering emails, and ensuring smooth communication between clients and sales representatives. I notably spearheaded the development of a comprehensive financial record organization system, improving access to crucial files. 
 
 
-      HHI am recognized as a proactive team player with clear communication, exceptional organizational skills, and effective use of technology to enhance efficiency and productivity.
+      I am recognized as a proactive team player with clear communication, exceptional organizational skills, and effective use of technology to enhance efficiency and productivity.
 ---
