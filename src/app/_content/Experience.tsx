@@ -29,6 +29,7 @@ export default function Experience() {
             <DateSpan date={role.date} />
           </small>
           <div
+            className="text-pretty"
             dangerouslySetInnerHTML={{
               __html: convertNewLinesToHTML(role.description),
             }}

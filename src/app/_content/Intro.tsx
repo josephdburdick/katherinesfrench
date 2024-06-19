@@ -18,12 +18,15 @@ function Intro() {
             <small className="hidden items-center gap-1 font-medium lg:flex">
               <Icon.mapPin /> {intro.location}
             </small>
-            <h1>
+            <h1 className="text-pretty">
               {intro.heading1}
               <br />
               {intro.heading2}
             </h1>
-            <div dangerouslySetInnerHTML={{ __html: html }} />
+            <div
+              className="text-pretty"
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
             <div className="flex flex-wrap items-center justify-center gap-6 lg:justify-start">
               <a className={buttonVariants({ size: "lg" })} href={linkedin.url}>
                 Connect with me on LinkedIn
