@@ -22,7 +22,7 @@ export default function Experience() {
             width={role.picture.width}
             height={role.picture.height}
           />
-          <span className="absolute inset-0 rounded-xl bg-primary mix-blend-soft-light"></span>
+          <span className="absolute inset-0 rounded-xl bg-primary/50 mix-blend-soft-light"></span>
         </span>
         <div className="prose space-y-4 lg:prose-lg xl:prose-xl">
           <small>

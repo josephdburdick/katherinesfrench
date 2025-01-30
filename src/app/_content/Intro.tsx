@@ -41,15 +41,15 @@ function Intro() {
           </div>
         </div>
         <div className="col-span-12 flex items-center justify-center lg:col-span-6">
-          <span className="w-95 relative max-w-full items-center justify-center overflow-hidden rounded-full">
-            <Image
-              width={intro.picture.width}
-              height={intro.picture.height}
-              alt={intro.picture.alt}
-              src={intro.picture.src}
-            />
-            <span className="rounded-rull absolute inset-0 bg-primary mix-blend-soft-light"></span>
-          </span>
+          {/* <div className="w-95 h-95 relative flex max-w-full items-center justify-center overflow-hidden rounded-full"> */}
+          <Image
+            width={intro.picture.width}
+            height={intro.picture.height}
+            alt={intro.picture.alt}
+            src={intro.picture.src}
+            className="h-72 w-72 rounded-full object-cover object-center md:h-96 md:w-96"
+          />
+          {/* </div> */}
         </div>
       </div>
     </div>
