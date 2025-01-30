@@ -1,4 +1,4 @@
-Website for Katherine S French
+Website for Kate French
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
