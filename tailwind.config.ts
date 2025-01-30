@@ -31,7 +31,7 @@ const config = {
               fontSize: "clamp(0.875rem, 1vw + 0.5rem, 1.5rem)",
             },
             h1: {
-              fontSize: "clamp(2rem, 3.5vw + 1.5rem, 3.5rem)",
+              fontSize: "clamp(1.85rem, 3.25vw + 1.5rem, 3.5rem)",
               fontWeight: "normal",
               lineHeight: "1.25",
             },
