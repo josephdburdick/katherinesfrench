@@ -13,9 +13,12 @@ export default function Experience() {
   const renderRole = (role: Role, key: number) => (
     <li key={`role-${key}`}>
       <div className="grid items-start justify-center gap-10 md:grid-cols-2">
-        <span className="relative">
+        <small className="md:col-start-2 md:row-start-1 md:text-right">
+          <DateSpan date={role.date} />
+        </small>
+        <span className="relative md:row-start-2 md:pt-2">
           <Image
-            className="rounded-xl"
+            className="w-full rounded-xl"
             objectFit="cover"
             src={role.picture.src}
             alt={role.picture.alt}
@@ -24,12 +27,9 @@ export default function Experience() {
           />
           <span className="absolute inset-0 rounded-xl bg-primary/50 mix-blend-soft-light"></span>
         </span>
-        <div className="prose space-y-4 lg:prose-lg xl:prose-xl">
-          <small>
-            <DateSpan date={role.date} />
-          </small>
+        <div className="prose space-y-4 lg:prose-lg xl:prose-xl md:row-start-2">
           <div
-            className="text-pretty"
+            className="text-pretty [&>p]:mt-0"
             dangerouslySetInnerHTML={{
               __html: convertNewLinesToHTML(role.description),
             }}
