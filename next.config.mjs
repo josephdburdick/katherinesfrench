@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 
-const isProduction = process.env.NODE_ENV === "production"
+const useGithubPages = process.env.DEPLOY_TARGET === "github"
 
 const nextConfig = {
-  basePath: isProduction ? "" : "/katherinesfrench",
-  // basePath: isProduction ? "/katherinesfrench" : "", NOTE: use this for local dev
+  basePath: useGithubPages ? "/katherinesfrench" : "",
   output: "export",
   images: {
     unoptimized: true,
