@@ -5,7 +5,7 @@ heading1: Hello,
 heading2: I'm Kate French
 
 picture:
-  src: ${basePath}/assets/images/kate-looking-up.png
+  src: ${basePath}/assets/images/kate-looking-up.webp
   alt: Kate French Portrait
   width: 384
   height: 512

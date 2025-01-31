@@ -7,7 +7,7 @@ roles:
       start: 2014-01-01
       end: null
     picture:
-      src: ${basePath}/assets/images/restaurant--md.jpg
+      src: ${basePath}/assets/images/restaurant--md.webp
       alt: Picture of dish in a fine dining restaurant
       width: 664
       height: 443
@@ -20,7 +20,7 @@ roles:
       start: 2011-01-01
       end: 2016-01-01
     picture:
-      src: ${basePath}/assets/images/office--md.jpg
+      src: ${basePath}/assets/images/office--md.webp
       alt: Picture of me working on my laptop
       width: 664
       height: 443
