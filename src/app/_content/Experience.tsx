@@ -12,7 +12,7 @@ export default function Experience() {
   const experience: ExperienceType = data.experience.attributes
   const renderRole = (role: Role, key: number) => (
     <li key={`role-${key}`}>
-      <div className="grid items-center justify-center gap-10 lg:grid-cols-2">
+      <div className="grid items-start justify-center gap-10 md:grid-cols-2">
         <span className="relative">
           <Image
             className="rounded-xl"
