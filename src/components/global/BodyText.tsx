@@ -4,11 +4,11 @@ type BodyTextProps = React.HTMLAttributes<HTMLDivElement> & {
 
 export default function BodyText({ children, ...props }: BodyTextProps) {
   return (
-    <div
+    <span
       className="prose space-y-4 lg:prose-lg xl:prose-xl [&>*+*]:mt-4 [&_a]:text-red-400"
       {...props}
     >
       {children}
-    </div>
+    </span>
   )
 }

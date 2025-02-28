@@ -1,9 +1,9 @@
 type Props = {
   date: {
-    start: string;
-    end: string | null;
-  };
-};
+    start: string
+    end: string | null
+  }
+}
 
 export default function DateSpan({ date }: Props) {
   const renderDate = (dateProp: string | null) => {
@@ -26,7 +26,7 @@ export default function DateSpan({ date }: Props) {
   return (
     <div className="flex flex-wrap items-center justify-start gap-2">
       <time>{renderDate(date.start)}</time>
-      <span className="h-px max-w-6 grow border-t border-muted-foreground">
+      <span className="h-px min-w-4 max-w-6 grow border-t border-muted-foreground">
         <span className="sr-only">&mdash;</span>
       </span>
       <time>{renderDate(date.end)}</time>
