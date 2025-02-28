@@ -53,6 +53,8 @@ jobs:
         with:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+          cache-dependency-path: |
+            ${{ steps.detect-package-manager.outputs.manager == 'yarn' && '**/yarn.lock' || '**/package-lock.json' }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
@@ -66,6 +68,7 @@ jobs:
         with:
           path: |
             .next/cache
+            ${{ steps.detect-package-manager.outputs.manager == 'yarn' && '~/.cache/yarn/v6' || '~/.npm' }}
           key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
