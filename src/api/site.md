@@ -13,7 +13,7 @@ open_graph:
   title: "Kate French - Let's Connect"
   description: Learn more about Kate French, a customer service professional with extensive experience in hospitality and administration.
   image: ${basePath}/assets/images/kate-looking-up.webp
-  url: https://josephdburdick.github.io/katherinesfrench/
+  url: https://katefrench.me
   site_name: Kate French
 twitter:
   card: summary_large_image

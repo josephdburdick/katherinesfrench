@@ -1,5 +1,6 @@
 "use client"
 
+import BodyText from "@/components/global/BodyText"
 import DateSpan from "@/components/global/DateSpan"
 import { useApi } from "@/components/providers/DataProvider"
 import convertNewLinesToHTML from "@/lib/convertNewLinesToHTML"
@@ -27,14 +28,12 @@ export default function Experience() {
           />
           <span className="absolute inset-0 rounded-xl bg-primary/50 mix-blend-soft-light"></span>
         </span>
-        <div className="prose space-y-4 lg:prose-lg xl:prose-xl md:row-start-2">
-          <div
-            className="text-pretty [&>p]:mt-0"
-            dangerouslySetInnerHTML={{
-              __html: convertNewLinesToHTML(role.description),
-            }}
-          ></div>
-        </div>
+        <BodyText
+          className="prose space-y-4 lg:prose-lg xl:prose-xl md:row-start-2"
+          dangerouslySetInnerHTML={{
+            __html: convertNewLinesToHTML(role.description),
+          }}
+        />
       </div>
     </li>
   )

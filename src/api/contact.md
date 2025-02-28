@@ -7,5 +7,5 @@ links:
   resume:
     text: View my Resume
     icon: readCV
-    url: https://read.cv/katefr
+    url: /cv
 ---

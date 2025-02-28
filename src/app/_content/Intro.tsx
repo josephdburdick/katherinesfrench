@@ -38,7 +38,7 @@ function Intro() {
                 </span>
               </div>
               <div
-                className="text-pretty"
+                className="max-w-2xl text-pretty"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
               <div className="flex flex-wrap items-center justify-center gap-6 lg:justify-start">
