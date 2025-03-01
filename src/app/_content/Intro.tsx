@@ -15,12 +15,12 @@ function Intro() {
       <div className="grid grid-cols-12 lg:gap-12">
         <div className="col-span-12 flex items-center justify-center lg:col-span-6">
           <div className="prose-scale flex flex-col gap-12 py-12">
-            <small className="hidden items-center gap-1 font-medium lg:flex">
-              <Icon.mapPin /> {intro.location}
+            <small className="hidden items-center gap-1 font-medium text-muted lg:flex">
+              <Icon.mapPin className="text-primary" /> {intro.location}
             </small>
             <div className="flex flex-col gap-4">
               <div className="flex flex-col-reverse items-center sm:flex-row sm:items-end">
-                <h1 className="w-full flex-1 text-pretty">
+                <h1 className="w-full flex-1 text-pretty text-primary">
                   {intro.heading1}
                   <br />
                   {intro.heading2}
@@ -61,8 +61,7 @@ function Intro() {
         <div className="col-span-12 flex items-center justify-center lg:col-span-6">
           <span className="relative hidden lg:block">
             <Image
-              width={intro.picture.width}
-              height={intro.picture.height}
+              {...intro.picture}
               alt={intro.picture.alt}
               src={intro.picture.src}
               className="h-auto w-72 rounded-b-full object-cover object-center md:w-96"

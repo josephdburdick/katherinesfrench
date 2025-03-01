@@ -5,7 +5,7 @@ sections:
     content: |
       Administrator and customer service specialist with an unwavering passion and energy for people. I believe the best customer experiences come from a personable, positive, and enthusiastic demeanor, which is reflected consistently through my work.
 
-  - title: Work Experience
+  - title: Experience
     items:
       - role: Bartender at Various Locations
         date:

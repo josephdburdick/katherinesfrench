@@ -10,7 +10,11 @@ export default function Header() {
   const { name } = data.site.attributes
   const { linkedin } = data.contact.attributes.links
   return (
-    <header className={cn("container flex items-center justify-between py-8")}>
+    <header
+      className={cn(
+        "container flex items-center justify-between py-8 text-primary",
+      )}
+    >
       <h1 className="inline-flex flex-nowrap items-center gap-2 text-xl font-bold">
         <a href="/">{name}</a> ✨
       </h1>
