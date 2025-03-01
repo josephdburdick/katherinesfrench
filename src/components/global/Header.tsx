@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header
       className={cn(
-        "container flex items-center justify-between py-8 text-primary",
+        "container flex items-center justify-between py-4 text-primary md:py-8",
       )}
     >
       <h1 className="inline-flex flex-nowrap items-center gap-2 text-xl font-bold">
