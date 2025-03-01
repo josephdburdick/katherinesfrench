@@ -49,7 +49,7 @@ export default function Experience() {
   return (
     <div className={cn("py-8 lg:py-24 xl:py-36")}>
       <div className="container prose-scale space-y-4">
-        <h4 className="text-2xl font-light">Experience</h4>
+        <h4 className="text-2xl font-light text-primary">Experience</h4>
       </div>
       <div className="mt-8 flex w-full flex-1">{renderExperiences}</div>
     </div>
