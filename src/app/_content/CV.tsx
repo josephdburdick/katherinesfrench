@@ -83,8 +83,8 @@ function Section({
 function SectionItem({ item }: { item: SectionItemType }) {
   return (
     <div className="mt-4 space-y-1 text-base">
-      <div className="flex flex-col-reverse items-start justify-between gap-4 lg:grid lg:grid-cols-6">
-        <div className="col-span-2 text-xs lg:pt-1">
+      <div className="flex flex-col-reverse items-start justify-between gap-4 md:flex-row-reverse lg:grid lg:grid-cols-6">
+        <div className="col-span-2 text-xs md:pt-1">
           <DateSpan date={item.date} />
         </div>
         <div className="col-span-4 flex flex-col gap-0.5 text-foreground">
