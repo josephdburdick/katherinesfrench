@@ -24,7 +24,7 @@ export default function DateSpan({ date }: Props) {
   }
 
   return (
-    <div className="flex flex-wrap items-center justify-start gap-2 text-primary">
+    <div className="flex items-center justify-start gap-2 text-primary">
       <time>{renderDate(date.start)}</time>
       <span className="h-px min-w-4 max-w-6 grow border-t border-muted-foreground">
         <span className="sr-only">&mdash;</span>
