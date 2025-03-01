@@ -14,7 +14,7 @@ function Intro() {
     <div className="container">
       <div className="grid grid-cols-12 lg:gap-12">
         <div className="col-span-12 flex items-center justify-center lg:col-span-6">
-          <div className="prose-scale flex flex-col gap-12 py-12">
+          <div className="prose-scale flex flex-col gap-12 py-6 lg:py-12">
             <small className="hidden items-center gap-1 font-medium text-muted lg:flex">
               <Icon.mapPin className="text-primary" /> {intro.location}
             </small>
