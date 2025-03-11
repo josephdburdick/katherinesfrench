@@ -59,7 +59,7 @@ sections:
           end: 2018-12-31
         institution: Virginia Commonwealth University
         details: Cum Laude
-    - title: Certifications
+  - title: Certifications
     items:
       - degree: Teaching English as a Foreign Language
         date:
