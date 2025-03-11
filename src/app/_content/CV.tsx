@@ -121,20 +121,26 @@ function SectionItem({ item }: { item: SectionItemType }) {
         <div className="col-span-4 flex flex-col gap-0.5 text-foreground">
           <h3 className="font-medium">{item.role || item.degree}</h3>
           {item.location && <span className="text-xs">{item.location}</span>}
+          {item.institution && (
+            <span className="text-xs">{item.institution}</span>
+          )}
         </div>
       </div>
       {item?.details ? (
         <div className="grid-cols-6 gap-4 lg:grid">
-          <ul className="col-span-4 col-start-3 list-disc pl-4 pt-1.5 text-sm text-muted lg:pl-0 [&>li]:mt-2">
-            {Array.isArray(item.details) &&
-              item.details.map((detail, j) => {
-                return (
-                  <li key={j} className="text-pretty">
-                    {detail}
-                  </li>
-                )
-              })}
-          </ul>
+          {Array.isArray(item.details) ? (
+            <ul className="col-span-4 col-start-3 list-disc pl-4 pt-1.5 text-sm text-muted lg:pl-0 [&>li]:mt-2">
+              {item.details.map((detail, j) => (
+                <li key={j} className="text-pretty">
+                  {detail}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <div className="col-span-4 col-start-3 pt-1.5 text-sm text-muted">
+              {item.details}
+            </div>
+          )}
         </div>
       ) : null}
     </div>

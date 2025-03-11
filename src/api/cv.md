@@ -34,7 +34,7 @@ sections:
         details:
           - Proactively supported full-time staff by efficiently managing day-to-day tasks and anticipating their needs, contributing to improved workflow and productivity.
           - Revolutionized the organization of a decade's worth of records, completing a projected three-month task within weeks, in anticipation of an upcoming audit. This efficient and effective system was subsequently adopted as the company standard, showcasing exceptional organizational acumen and proactive problem-solving.
-          - Efficiently processed incoming orders from vendors, ensuring accurate data logging and timely order fulfillment in the company  Retail Accounting System.
+          - Efficiently processed incoming orders from vendors, ensuring accurate data logging and timely order fulfillment in the company Retail Accounting System.
       - role: Office Administrator at Virginia Commonwealth University
         date:
           start: 2014-01-01
@@ -59,6 +59,7 @@ sections:
           end: 2018-12-31
         institution: Virginia Commonwealth University
         details: Cum Laude
+
   - title: Certifications
     items:
       - degree: Teaching English as a Foreign Language
