@@ -10,17 +10,17 @@ export default function DateSpan({ date }: Props) {
     if (!dateProp) return "Now"
 
     const date = new Date(dateProp)
-    const month = date.toLocaleString("default", {
-      month: "short",
-      timeZone: "UTC",
-    })
+    // const month = date.toLocaleString("default", {
+    //   month: "short",
+    //   timeZone: "UTC",
+    // })
 
     const year = date.toLocaleString("default", {
-      year: "2-digit",
+      year: "numeric",
       timeZone: "UTC",
     })
 
-    return `${month} '${year}`
+    return year
   }
 
   return (
