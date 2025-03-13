@@ -7,6 +7,17 @@ sections:
 
   - title: Experience
     items:
+    - role: Content Creator
+        date:
+          start: 2024-01-01
+          end: null
+        location: New York City, NY
+        details:
+          - Write, produce, and edit engaging neighborhood guides, blending storytelling and personal insights with strategic brand partnerships to showcase New York City’s food, drink, activities, and walking tours.
+          - Craft concise and compelling scripts for video content ensuring clear, engaging, and informative messaging.
+          - Develop and execute social media strategy by analyzing digital trends, leveraging Instagram analytics for engagement insights, and optimizing content performance using tools like Linktree and Canva.
+          - Collaborate with a creative partner to refine content ideas, enhance production quality, and maintain an authentic voice and engaging brand voice.
+          - Cultivate relationships with businesses and clients, offering promotional services that drive engagement while preserving audience trust.
       - role: Bartender at Various Locations
         date:
           start: 2017-01-01
