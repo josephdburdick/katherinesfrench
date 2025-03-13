@@ -12,12 +12,13 @@ function Intro() {
   const { linkedin, resume } = data.contact.attributes.links
   return (
     <div className="container">
-      <div className="grid grid-cols-12 lg:gap-12">
+      <div className="grid grid-cols-12 md:min-h-[50dvh] lg:gap-12">
         <div className="col-span-12 flex items-center justify-center lg:col-span-6">
           <div className="prose-scale flex flex-col gap-12 py-6 lg:py-12">
             <small className="hidden items-center gap-1 font-medium text-muted lg:flex">
               <Icon.mapPin className="text-primary" /> {intro.location}
             </small>
+
             <div className="flex flex-col gap-4">
               <div className="flex flex-col-reverse items-center sm:flex-row sm:items-end">
                 <h1 className="w-full flex-1 text-pretty text-primary">
@@ -38,10 +39,10 @@ function Intro() {
                 </span>
               </div>
               <div
-                className="max-w-2xl text-pretty"
+                className="min-w-lg max-w-2xl text-pretty"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
-              <div className="flex flex-wrap items-center justify-center gap-6 lg:justify-start">
+              <div className="mt-2 flex flex-wrap items-center justify-center gap-6 lg:justify-start">
                 <a
                   className={buttonVariants({ size: "lg" })}
                   href={linkedin.url}
@@ -59,7 +60,7 @@ function Intro() {
           </div>
         </div>
         <div className="col-span-12 flex items-center justify-center lg:col-span-6">
-          <span className="relative hidden lg:block">
+          <span className="relative -mb-24 hidden lg:block">
             <Image
               {...intro.picture}
               alt={intro.picture.alt}

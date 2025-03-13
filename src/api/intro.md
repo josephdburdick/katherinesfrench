@@ -11,6 +11,6 @@ picture:
   height: 512
 ---
 
-I'm a NYC-based Customer Service Professional actively pursuing opportunities in media, sales, and administration.
-<br/><br/>
-<span class="text-sm">My background in customer service, administration, and hospitality has equipped me with strong analytical thinking, attention to detail, and excellent communication skills. I'm passionate about understanding audience needs and creating effective solutions, and I'm excited to bring these skills to your next venture.</span>
+A dynamic New York-based professional with a talent for media, sales, and customer engagement.
+
+<!-- <span class="text-base">My background in customer service, administration, and hospitality has equipped me with strong analytical thinking, attention to detail, and excellent communication skills. I'm passionate about understanding audience needs and creating effective solutions, and I'm excited to bring these skills to your next venture.</span> -->

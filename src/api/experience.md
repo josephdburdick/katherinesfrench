@@ -1,8 +1,21 @@
 ---
 title: Experience
 roles:
-  - role: Hospitality
+  - role: Content Creator
+    date:
+      start: 2024-01-01
+      end: null
+    picture:
+      src: ${basePath}/assets/images/GBV_cellphone.webp
+      alt: Picture of dish in a fine dining restaurant
+      width: 664
+      height: 443
+    description: |
+      As a content creator, I collaborate with clients and partners to craft compelling copy and visually engaging media, from social media posts to promotional videos.  
 
+      Storytelling is at the heart of my work. With expertise in scriptwriting, video production, and social media strategy, I create clear and impactful content staying ahead of digital trends to ensure that each piece resonates with its audience and delivers results.
+
+  - role: Hospitality
     date:
       start: 2014-01-01
       end: null
@@ -12,9 +25,10 @@ roles:
       width: 664
       height: 443
     description: |
-      Over the years, I've held various positions in the hospitality industry, progressing from server to manager and acquiring a deep understanding of its complexities. As a manager, I was responsible for inventory management and supply orders, ensuring the restaurant ran smoothly in the owner’s absence. 
+      Professional and pleasant define my approach. I have immersed myself in hospitality for years, thriving as a bartender, manager, and event coordinator. I handle inventory, scheduling, and daily operations, ensuring every shift runs smoothly. As an interim manager, I relied on effective communication and quick problem-solving to keep our team aligned and our guests happy. 
 
-      In my freelance work, I expertly coordinated large-scale events and parties, overseeing customer engagement and beverage service with precision. My dedication to exceeding expectations and consistently delivering outstanding results is evident in every role I undertake, making me an invaluable asset in any hospitality setting.
+      My freelance event coordination sharpened my ability to organize large-scale gatherings and deliver unforgettable experiences. I thrive under pressure, lead teams confidently, and build strong customer relationships—skills that adapt seamlessly to any industry demanding efficiency, clear communication, and a personal touch.
+
   - role: Administration
     date:
       start: 2011-01-01
@@ -25,8 +39,7 @@ roles:
       width: 664
       height: 443
     description: |
-      I have extensive experience as an administrative assistant in various industries, efficiently managing client inquiries, filtering emails, and ensuring smooth communication between clients and sales representatives. I notably spearheaded the development of a comprehensive financial record organization system, improving access to crucial files. 
+      As an administrative assistant across diverse industries, I manage client inquiries, coordinate schedules, and maintain supplies to ensure smooth-running operations. 
 
-
-      I am recognized as a proactive team player with clear communication, exceptional organizational skills, and effective use of technology to enhance efficiency and productivity.
+      My attention to detail resulted in an efficient financial record system, improving accessibility ahead of industry audits. Anticipating team needs and leveraging resources fosters a more productive work environment. With a commitment to streamlining operations and enhancing workflow, I provide the support for teams to work smarter, not harder.
 ---
