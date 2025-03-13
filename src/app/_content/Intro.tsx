@@ -42,7 +42,7 @@ function Intro() {
                 className="min-w-lg max-w-2xl text-pretty"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
-              <div className="mt-2 flex flex-wrap items-center justify-center gap-6 lg:justify-start">
+              <div className="mt-2 flex flex-wrap items-center justify-center gap-2 sm:gap-6 lg:justify-start">
                 <a
                   className={buttonVariants({ size: "lg" })}
                   href={linkedin.url}
