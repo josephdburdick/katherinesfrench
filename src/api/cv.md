@@ -7,7 +7,7 @@ sections:
 
   - title: Experience
     items:
-    - role: Content Creator
+      - role: Content Creator
         date:
           start: 2024-01-01
           end: null
