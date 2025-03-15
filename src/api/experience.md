@@ -15,7 +15,7 @@ roles:
 
       Storytelling is at the heart of my work. With expertise in scriptwriting, video production, and social media strategy, I create clear and impactful content staying ahead of digital trends to ensure that each piece resonates with its audience and delivers results.
     
-      <a href="https://www.instagram.com/guidesbyvibes">Guides By Vibes</a>
+      <a href="https://www.instagram.com/guidesbyvibes" target="_blank">Guides By Vibes</a>
     
 
   - role: Hospitality
