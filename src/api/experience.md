@@ -14,6 +14,9 @@ roles:
       As a content creator, I collaborate with clients and partners to craft compelling copy and visually engaging media, from social media posts to promotional videos.  
 
       Storytelling is at the heart of my work. With expertise in scriptwriting, video production, and social media strategy, I create clear and impactful content staying ahead of digital trends to ensure that each piece resonates with its audience and delivers results.
+    
+      <a href="https://www.instagram.com/guidesbyvibes">Guides By Vibes</a>
+    
 
   - role: Hospitality
     date:
@@ -25,9 +28,10 @@ roles:
       width: 664
       height: 443
     description: |
-      Professional and pleasant define my approach. I have immersed myself in hospitality for years, thriving as a bartender, manager, and event coordinator. I handle inventory, scheduling, and daily operations, ensuring every shift runs smoothly. As an interim manager, I relied on effective communication and quick problem-solving to keep our team aligned and our guests happy. 
+      Professionalism and warmth define my approach. As a bartender, manager, and event coordinator I handle inventory, scheduling, and operations ensuring everything runs smoothly by employing effective problem-solving and delegation. 
 
-      My freelance event coordination sharpened my ability to organize large-scale gatherings and deliver unforgettable experiences. I thrive under pressure, lead teams confidently, and build strong customer relationships—skills that adapt seamlessly to any industry demanding efficiency, clear communication, and a personal touch.
+      Being passionate about hospitality I deliver unforgettable guest experiences. I thrive under pressure, confidently lead teams, and build and maintain strong customer relationships - skills that complement every industry requiring efficiency, clear communication, and a personal touch.
+
 
   - role: Administration
     date:
