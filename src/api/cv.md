@@ -24,37 +24,37 @@ sections:
           end: null
         location: Richmond, VA and New York City, NY
         details:
-          - Delivered exceptional customer service in fast-paced, high-volume environments, and mentored junior staff, fostering a culture of excellence and enhancing overall team performance.
-          - Developed and proposed marketing strategies to enhance the establishment's presence on social media and through promotional events. Crafted detailed action plans with clear projections, contributing to increased brand visibility and customer engagement.
-          - Pioneered innovative logistical strategies to improve processes, optimize space utilization, and minimize waste, leading to enhanced operational efficiency and significant cost savings.
-          - Expertly managed large-scale events and parties, overseeing all aspects from customer engagement to beverage service, ensuring memorable experiences for attendees.
+          - Deliver exceptional customer service in fast-paced, high-volume environments, and mentor junior staff, fostering a culture of excellence and enhancing overall team performance.
+          - Develop and propose marketing strategies to enhance the establishment's presence on social media and through promotional events. Craft detailed action plans with clear projections, contributing to increased brand visibility and customer engagement.
+          - Pioneer innovative logistical strategies to improve processes, optimize space utilization, and minimize waste, leading to enhanced operational efficiency and significant cost savings.
+          - Expertly manage large-scale events and parties, overseeing all aspects from customer engagement to beverage service, ensuring memorable experiences for attendees.
       - role: Manager at Tre Trattoria
         date:
           start: 2022-01-01
           end: null
         location: New York City, NY
         details:
-          - Regularly stepped in as Interim Manager, leading team operations and ensuring optimal performance.
-          - Proactively managed inventory and supply orders, ensuring seamless restaurant operations.
-          - Oversaw financial processes, including meticulous tracking of tips, invoice processing, and managing petty cash. Effectively maintained balanced accounts through vigilant oversight, proactively preventing any fiscal discrepancies.
+          - Regularly step in as Interim Manager, leading team operations and ensuring optimal performance.
+          - Manage inventory and supply orders ensuring seamless restaurant operations.
+          - Oversee financial processes, including meticulous tracking of tips, invoice processing, and managing petty cash. Effectively maintain balanced accounts through vigilant oversight, preventing any fiscal discrepancies.
       - role: Office Administrator at Al Pugh Distributing Company
         date:
           start: 2011-01-01
           end: 2016-01-01
         location: Warsaw, VA
         details:
-          - Proactively supported full-time staff by efficiently managing day-to-day tasks and anticipating their needs, contributing to improved workflow and productivity.
-          - Revolutionized the organization of a decade's worth of records, completing a projected three-month task within weeks, in anticipation of an upcoming audit. This efficient and effective system was subsequently adopted as the company standard, showcasing exceptional organizational acumen and proactive problem-solving.
-          - Efficiently processed incoming orders from vendors, ensuring accurate data logging and timely order fulfillment in the company Retail Accounting System.
+          - Anticipate team needs and leverage resources to enhance productivity and create a more efficient work environment.
+          - Develop and implement a streamlined financial record system, improving accessibility and expediting audit preparation, setting a new company standard.
+          - Process incoming orders from vendors, ensuring accurate data logging and timely order fulfillment in the company Retail Accounting System.
       - role: Office Administrator at Virginia Commonwealth University
         date:
           start: 2014-01-01
           end: 2015-01-01
-        location: Warsaw, VA
+        location: Richmond, VA
         details:
-          - Conducted department tours for prospective students and parents, effectively communicating the program's features and academic strengths, and enhancing the department's image and appeal.
-          - Managed inquiries about the Sculpture Program, demonstrating excellent communication skills and efficient routing of information to relevant staff members.
-          - Provided essential support to full-time staff, assisting with various projects and tasks, thereby contributing to the smooth functioning of the department.
+          - Conduct department tours for prospective students and parents, effectively communicating the program's features and academic strengths, and enhancing the department's image and appeal.
+          - Manage inquiries about the Sculpture Program, demonstrating excellent communication skills and efficient routing of information to relevant staff members.
+          - Provide essential support to full-time staff, assist with various projects and tasks, thereby contributing to the smooth functioning of the department.
 
   - title: Education
     items:
