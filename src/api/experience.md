@@ -1,9 +1,9 @@
 ---
 title: Experience
 roles:
-  - role: Content Creator
+  - role: Operation & Licensing Assistant
     date:
-      start: 2024-01-01
+      start: 2025-01-01
       end: null
     picture:
       src: ${basePath}/assets/images/restaurant_signing.webp
@@ -11,9 +11,12 @@ roles:
       width: 664
       height: 443
     description: |
-      As a content creator, I collaborate with clients and partners to craft compelling copy and visually engaging media, from social media posts to promotional videos.  
+      I have a deep understanding of what it takes to move complex projects forward with clarity and care. I communicate clearly, coordinate schedules and tasks with precision, and use a holistic approach when problem-solving. 
 
-      Storytelling is at the heart of my work. With expertise in scriptwriting, video production, and social media strategy, I create clear and impactful content staying ahead of digital trends to ensure that each piece resonates with its audience and delivers results.
+      In my current role at Citywide Licensing, I work closely with the company’s principal to support restaurant, grocery, and hospitality businesses across New York as they navigate the complex requirements involved in launching and successful operations. 
+
+      I manage the preparation and submission of operation-critical materials such as liquor license applications and corporate entity registrations. To ensure compliance I crafted an organizational system to keep all renewals and requirements on schedule. In addition to my administrative work, I drive business growth through targeted client outreach, prospect research, and consistent follow-ups.
+.
 
       <a href="https://www.instagram.com/guidesbyvibes" target="_blank">Guides By Vibes</a>
 
