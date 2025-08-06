@@ -16,7 +16,6 @@ roles:
       In my current role at Citywide Licensing, I work closely with the company’s principal to support restaurant, grocery, and hospitality businesses across New York as they navigate the complex requirements involved in launching and successful operations. 
 
       I manage the preparation and submission of operation-critical materials such as liquor license applications and corporate entity registrations. To ensure compliance I crafted an organizational system to keep all renewals and requirements on schedule. In addition to my administrative work, I drive business growth through targeted client outreach, prospect research, and consistent follow-ups.
-.
 
       <a href="https://www.instagram.com/guidesbyvibes" target="_blank">Guides By Vibes</a>
 
