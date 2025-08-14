@@ -13,7 +13,7 @@ roles:
     description: |
       I have a deep understanding of what it takes to move complex projects forward with clarity and care. I communicate clearly, coordinate schedules and tasks with precision, and use a holistic approach when problem-solving. 
 
-      In my current role at Citywide Licensing, I work closely with the company’s principal to support restaurant, grocery, and hospitality businesses across New York as they navigate the complex requirements involved in launching and successful operations. 
+      In my current role at Citywide Licensing, I work closely with the company’s principal to support restaurant, grocery, and hospitality businesses across New York as they navigate the complex requirements involved in launching successful operations. 
 
       I manage the preparation and submission of operation-critical materials such as liquor license applications and corporate entity registrations. To ensure compliance I crafted an organizational system to keep all renewals and requirements on schedule. In addition to my administrative work, I drive business growth through targeted client outreach, prospect research, and consistent follow-ups.
 
