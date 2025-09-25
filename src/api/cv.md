@@ -7,6 +7,17 @@ sections:
 
   - title: Experience
     items:
+      - role: Operations & Licensing Assistant
+        date:
+          start: 2025-01-01
+          end: null
+        location: New York City, NY
+        details:
+          - Support licensing and permitting processes for new hospitality businesses by completing forms related to the NYS Liquor Authority, Community Boards, LLC/corporation registration, and business renewals.
+          - Drove new business growth by securing clients through targeted outreach strategies, including prospect research, cold and warm calling, mailing promotional flyers, and following up via email—directly contributing to increased company revenue.
+          - Assist company principal by transcribing notes and instructions into accurate, compliant documentation across multiple applications.
+          - Utilize Airtable, Excel, Word, and Outlook to organize client records, manage internal tasks, and track project progress.
+          - Prepare and send critical documentation and manage delivery logistics to ensure timely submissions.
       - role: Content Creator
         date:
           start: 2024-01-01
