@@ -3,21 +3,32 @@ title: Resume
 sections:
   - title: About
     content: |
-      Administrator and customer service specialist with an unwavering passion and energy for people. I believe the best customer experiences come from a personable, positive, and enthusiastic demeanor, which is reflected consistently through my work.
+      People-first, operations-driven professional with a strong foundation in client onboarding, business development support, and process execution. Experienced in managing pipelines, CRM systems, and follow-through that drive revenue growth and strong customer outcomes. I specialize in building structure, creating clarity, and keeping relationships and workflows moving forward with consistency, trust, and results.
 
   - title: Experience
     items:
-      - role: Operations & Licensing Assistant
+      - role: Operations & Licensing Associate
         date:
           start: 2025-01-01
           end: null
         location: New York City, NY
         details:
-          - Support licensing and permitting processes for new hospitality businesses by completing forms related to the NYS Liquor Authority, Community Boards, LLC/corporation registration, and business renewals.
-          - Drive new business growth by securing clients through targeted outreach strategies, including prospect research, cold and warm calling, mailing promotional flyers, and following up via email—directly contributing to increased company revenue.
-          - Assist company principal by transcribing notes and instructions into accurate, compliant documentation across multiple applications.
-          - Utilize Airtable, Excel, Word, and Outlook to organize client records, manage internal tasks, and track project progress.
-          - Prepare and send critical documentation and manage delivery logistics to ensure timely submissions.
+          - Facilitate licensing and permitting processes for new hospitality businesses through comprehensive application submissions to the NYS Liquor Authority and other relevant entities.
+          - Spearhead business development initiatives by conducting outbound outreach and follow-ups to acquire new clients and support revenue growth.
+          - Manage client onboarding and documentation pipelines, ensuring regulatory compliance and on-time submissions.
+          - Employ CRM software tools such as Hubspot, Airtable, and Excel to streamline operations and maintain organized client records.
+          - Provide administrative support by accurately transcribing executive notes into actionable tasks across various platforms.
+      - role: Strategy & Product Consultant (Cue Quest)
+        date:
+          start: 2025-01-01
+          end: null
+        location: New York City, NY
+        details:
+          - Conducted app usability, performance, and reliability testing alongside qualitative user research to identify friction points and user needs and inform product decisions.
+          - Served as the primary point of contact for UX and engagement strategy, advising on usability, feature prioritization, and user experience improvements.
+          - Synthesized research and testing findings into clear, actionable recommendations that directly informed product and design decisions ahead of the Version 2 launch.
+          - Partnered cross-functionally with product and engineering teams to implement UX improvements that enhanced app performance through simplified iconography and prioritizing core workflows for a map-first experience.
+          - Developed user engagement and advertising strategies, including social media and identifying high-traffic urban locations for outdoor marketing.
       - role: Content Creator
         date:
           start: 2024-01-01
@@ -26,8 +37,8 @@ sections:
         details:
           - Write, produce, and edit engaging neighborhood guides, blending storytelling and personal insights with strategic brand partnerships to showcase New York City’s food, drink, activities, and walking tours.
           - Craft concise and compelling scripts for video content ensuring clear, engaging, and informative messaging.
-          - Develop and execute social media strategy by analyzing digital trends, leveraging Instagram analytics for engagement insights, and optimizing content performance using tools like Linktree and Canva.
-          - Collaborate with a creative partner to refine content ideas, enhance production quality, and maintain an authentic voice and engaging brand voice.
+          - Developed and execute social media strategy by analyzing digital trends, leveraging Instagram analytics for engagement insights, and optimizing content performance using tools like Linktree and Canva.
+          - Collaborat with a creative partner to refine content ideas, enhance production quality, and maintain an authentic voice and engaging brand voice.
           - Cultivate relationships with businesses and clients, offering promotional services that drive engagement while preserving audience trust.
       - role: Bartender at Various Locations
         date:
