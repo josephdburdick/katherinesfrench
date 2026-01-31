@@ -2,6 +2,8 @@
 title: A Little About Me
 ---
 
-A creative problem-solver with a background in social media management, hospitality, and administration passionate about understanding audience needs and delivering effective solutions.
+A creative thinker with a strong foundation in sales, customer service, and digital strategy. I specialize in connecting with people, uncovering needs, and shaping clear, compelling solutions that build trust and drive action.
 
-With sharp analytical skills, a keen eye for detail, and top-notch communication, I am ready to bring fresh ideas and real impact to your team. Let’s connect and make something great happen.
+With strong communication skills, analytical instincts, and a deep respect for the customer experience, I bring ideas to life in ways that feel thoughtful, approachable, and effective. Always curious, always collaborative, and always focused on impact. 
+
+Let’s connect and make something great happen.
